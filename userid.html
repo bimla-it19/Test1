@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+function func() {
+
+       var user= document.f1.user.value;
+       var len= user.length;
+if((len<5>||(len>8))
+{
+alert("username should be within 5-8 characters in length");
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" onsubmit="func()">
+username:
+  <input type="text" name="user"/>
+  <input type="submit" value="click me">
+</form>
+</body>
+</html>
